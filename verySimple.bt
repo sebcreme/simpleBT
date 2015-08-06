@@ -3,29 +3,19 @@
     "version": "1.0.0"
   },
   {
-    "uuid": "3199463a-32b2-4822-bf15-59a9f404adda",
+    "uuid": "bc6b5d6e-6c24-4834-b7cf-fef98790508e",
     "name": "verySimple",
     "description": "",
     "children": [
       {
-        "id": "63ddc8bc-5b5f-4584-a268-d1109c75d9aa",
+        "id": "06b8ea22-67fd-4de8-b6a0-bd9e4d343387",
         "activated": true,
-        "type": "until",
+        "type": "random",
         "metadata": {
-          "label": "",
-          "itemTemplate": "BTUntilNode.qml"
+          "label": "ahahha",
+          "itemTemplate": "BTSelectorRandom.qml"
         },
-        "properties": {
-          "op1": {
-            "value": "called",
-            "type": "entityKnowledge"
-          },
-          "op2": {
-            "value": "true",
-            "type": "boolean"
-          },
-          "op": "=="
-        },
+        "properties": {},
         "children": [
           {
             "id": "70df5b17-9fcd-4d72-8b6d-110e45e3b616",
