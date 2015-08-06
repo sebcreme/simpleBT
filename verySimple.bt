@@ -1,10 +1,39 @@
 [
   {
-    "version": "0.1.2"
+    "version": "1.0.0"
   },
   {
-    "id": "e9abf49b-3994-41e3-b890-ec243753e35e",
-    "name": "b358e60e-9e2f-42ad-8525-3b8741bc0720",
-    "children": []
+    "uuid": "153fdc1c-8527-4e69-9599-9bc6fe78c39c",
+    "name": "verySimple",
+    "description": "",
+    "children": [
+      {
+        "id": "70df5b17-9fcd-4d72-8b6d-110e45e3b616",
+        "activated": true,
+        "type": "sequence",
+        "metadata": {
+          "label": "",
+          "itemTemplate": "BTSequenceNode.qml"
+        },
+        "properties": {},
+        "children": [
+          {
+            "id": "2e7ff4d6-b943-4f99-ba4c-98f61565479d",
+            "activated": true,
+            "type": "action",
+            "metadata": {
+              "label": "Call me maybe",
+              "itemTemplate": "BTActionNode.qml"
+            },
+            "properties": {
+              "name": "CallMeMaybe",
+              "inputParams": [],
+              "outputParams": []
+            },
+            "children": []
+          }
+        ]
+      }
+    ]
   }
 ]
