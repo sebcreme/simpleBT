@@ -3,7 +3,7 @@
     "version": "1.0.0"
   },
   {
-    "uuid": "5431b21c-cc92-4e9e-95cc-5e9b3942ae97",
+    "uuid": "e03ba46c-ac39-4d42-bb1a-3bc85a5c4bc5",
     "name": "verySimple",
     "description": "",
     "children": [
@@ -21,7 +21,7 @@
             "type": "entityKnowledge"
           },
           "op2": {
-            "value": "true",
+            "value": "false",
             "type": "boolean"
           },
           "op": "=="
