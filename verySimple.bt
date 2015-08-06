@@ -3,34 +3,56 @@
     "version": "1.0.0"
   },
   {
-    "uuid": "e29e6d2f-d855-470d-9b36-c28dd46e405f",
+    "uuid": "5431b21c-cc92-4e9e-95cc-5e9b3942ae97",
     "name": "verySimple",
     "description": "",
     "children": [
       {
-        "id": "70df5b17-9fcd-4d72-8b6d-110e45e3b616",
+        "id": "63ddc8bc-5b5f-4584-a268-d1109c75d9aa",
         "activated": true,
-        "type": "sequence",
+        "type": "until",
         "metadata": {
-          "label": "ROOT",
-          "itemTemplate": "BTSequenceNode.qml"
+          "label": "",
+          "itemTemplate": "BTUntilNode.qml"
         },
-        "properties": {},
+        "properties": {
+          "op1": {
+            "value": "called",
+            "type": "entityKnowledge"
+          },
+          "op2": {
+            "value": "true",
+            "type": "boolean"
+          },
+          "op": "=="
+        },
         "children": [
           {
-            "id": "2e7ff4d6-b943-4f99-ba4c-98f61565479d",
+            "id": "70df5b17-9fcd-4d72-8b6d-110e45e3b616",
             "activated": true,
-            "type": "action",
+            "type": "sequence",
             "metadata": {
-              "label": "Call me maybe",
-              "itemTemplate": "BTActionNode.qml"
+              "label": "ROOT",
+              "itemTemplate": "BTSequenceNode.qml"
             },
-            "properties": {
-              "name": "CallMeMaybe",
-              "inputParams": [],
-              "outputParams": []
-            },
-            "children": []
+            "properties": {},
+            "children": [
+              {
+                "id": "2e7ff4d6-b943-4f99-ba4c-98f61565479d",
+                "activated": true,
+                "type": "action",
+                "metadata": {
+                  "label": "Call me maybe",
+                  "itemTemplate": "BTActionNode.qml"
+                },
+                "properties": {
+                  "name": "CallMeMaybe",
+                  "inputParams": [],
+                  "outputParams": []
+                },
+                "children": []
+              }
+            ]
           }
         ]
       }
