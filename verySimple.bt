@@ -3,7 +3,7 @@
     "version": "1.0.0"
   },
   {
-    "uuid": "153fdc1c-8527-4e69-9599-9bc6fe78c39c",
+    "uuid": "e29e6d2f-d855-470d-9b36-c28dd46e405f",
     "name": "verySimple",
     "description": "",
     "children": [
@@ -12,7 +12,7 @@
         "activated": true,
         "type": "sequence",
         "metadata": {
-          "label": "",
+          "label": "ROOT",
           "itemTemplate": "BTSequenceNode.qml"
         },
         "properties": {},
