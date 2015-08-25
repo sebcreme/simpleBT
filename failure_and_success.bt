@@ -46,6 +46,57 @@
             ],
             "id": "8252e087-a98e-4d2d-9fd7-f8101ad68a08",
             "type": "success"
+          },
+          {
+            "activated": true,
+            "metadata": {
+              "label": ""
+            },
+            "properties": {},
+            "children": [
+              {
+                "activated": true,
+                "metadata": {
+                  "label": ""
+                },
+                "properties": {
+                  "op1": {
+                    "type": "boolean",
+                    "value": "true"
+                  },
+                  "op2": {
+                    "type": "boolean",
+                    "value": "true"
+                  },
+                  "op": "=="
+                },
+                "children": [],
+                "id": "9c9cc004-160c-4ec3-9f0e-64bb73d0ef33",
+                "type": "condition"
+              }
+            ],
+            "id": "610b7676-d808-41e2-9e7b-ca124552e401",
+            "type": "failure"
+          },
+          {
+            "activated": true,
+            "metadata": {
+              "label": ""
+            },
+            "properties": {},
+            "children": [],
+            "id": "4e6a2a95-d9fb-4616-a844-007e7ded5f53",
+            "type": "success"
+          },
+          {
+            "activated": true,
+            "metadata": {
+              "label": ""
+            },
+            "properties": {},
+            "children": [],
+            "id": "d673adba-b576-477b-a4bc-2765c7607024",
+            "type": "failure"
           }
         ],
         "id": "742195a9-f00a-4003-943e-5a59d4ee1009",
