@@ -1,10 +1,46 @@
 [
   {
-    "version": "0.1.2"
+    "version": "1.1.0"
   },
   {
-    "id": "9a38034d-03c6-4830-9498-45272aa00ed7",
-    "name": "34516946-5cf9-457e-ad98-f6db5bc451ea",
-    "children": []
+    "activated": true,
+    "metadata": {
+      "label": ""
+    },
+    "properties": {},
+    "children": [
+      {
+        "activated": true,
+        "metadata": {
+          "label": ""
+        },
+        "properties": {},
+        "children": [
+          {
+            "activated": true,
+            "metadata": {
+              "label": ""
+            },
+            "properties": {
+              "op1": {
+                "type": "boolean",
+                "value": "true"
+              },
+              "op2": {
+                "type": "boolean",
+                "value": "true"
+              },
+              "op": "=="
+            },
+            "children": [],
+            "id": "8a1038d8-e4a0-422b-93bb-46ae52512737",
+            "type": "condition"
+          }
+        ],
+        "id": "742195a9-f00a-4003-943e-5a59d4ee1009",
+        "type": "sequence"
+      }
+    ],
+    "id": "3ef66151-7534-4a5a-b2c3-39d2492ff95d"
   }
 ]
